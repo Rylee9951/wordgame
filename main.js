@@ -73,7 +73,7 @@ $('#guess').on('change', function(){
       result = 'Guess again...'
       $('input').val('')
     }else{
-      result = 'You lost. The word is: ' + word
+      result = 'How stupid are you? The word is: ' + word
       $('#container').css('background-image', 'url("https://media.giphy.com/media/gKsJUddjnpPG0/giphy.gif")')
     }
 
